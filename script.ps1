@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 $coins = Get-Content "coins.txt" | ForEach-Object { [int]$_ }    # Считываем номиналы монет из файла
 $total_sum = Read-Host "Введите сумму для выдачи сдачи"         # Считываем сумму
 
